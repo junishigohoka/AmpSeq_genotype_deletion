@@ -1,0 +1,9 @@
+# input
+dir_fastq_raw: /fml/ag-pallares/jishigohoka/software/AmpSeq_genotype_deletion/test_data/data/fastq
+dir_bed: test_data/data/bed
+dir_ref: test_data/data/refs
+info_table: test_data/data/ID_locus_allele_primers.txt
+# working directory
+dir_analysis: /fml/ag-pallares/jishigohoka/software/AmpSeq_genotype_deletion/test_data/analysis
+# threads
+n_threads: 1
