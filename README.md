@@ -11,14 +11,14 @@ The amplicon should be designed around the deletion breakpoint.
 ### Input
 
 - Paired-end amplicon reads in FASTQ
-- {locus}.fa: Reference of focal region in FASTA
-- A space delimited table 
+- `{locus}.fa`: Reference of focal region in FASTA
+- A space delimited info table 
     - column 1: sample
     - column 2: locus
     - column 3: allele
     - column 4: primer
-- {locus}_{allele}_del.bed: A BED file specifying positions of deletion breakpoints
-- {locus}_{allele}_flank.bed: A BED file specifying flanking regions of the deletion (to compute background depth)
+- `{locus}_{allele}_del.bed`: A BED file specifying positions of deletion breakpoints
+- `{locus}_{allele}_flank.bed`: A BED file specifying flanking regions of the deletion (to compute background depth)
 
 
 
